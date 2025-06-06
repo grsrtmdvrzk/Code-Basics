@@ -1,0 +1,16 @@
+// TASK
+//     Создайте разметку организации, в которой укажите:
+//         - Название организации
+//         - Email организации
+//
+//     Теги используются на своё усмотрение. Вся семантика строится на уровне микроразметки. В качестве словаря
+//     используйте http://schema.org/Organization.
+
+// SOLUTION
+<section itemscope itemtype="http://schema.org/Organization">
+    <header>
+        <h1 itemprop="name">Organization Name</h1>
+    </header>
+
+    <p>Email: <span itemprop="email">test@test.ru</span></p>
+</section>

@@ -1,0 +1,26 @@
+// TASK
+//     Создайте форму, у которой файл с обработчиком данных лежит по адресу /people. Внутри формы расположите следующие
+//     элементы:
+//         - 2 текстовых поля <input>
+//         - Список с возможностью множественного выбора
+//         - Кнопку «Отправить»
+
+// SOLUTION
+<form action="/people">
+    <label>
+        Name
+        <input type="text">
+    </label>
+    <label>
+        Email
+        <input type="text">
+    </label>
+    <select multiple>
+        <option disabled>Which course you want to take?</option>
+        <option>JS</option>
+        <option>PHP</option>
+        <option>Java</option>
+    </select>
+
+    <button>Apply</button>
+</form>
