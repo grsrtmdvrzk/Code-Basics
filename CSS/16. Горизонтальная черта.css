@@ -1,0 +1,12 @@
+// TASK
+//     Добавьте в редактор параграф с классом line и добавьте подчёркивание текста для него. Стили добавьте в тег
+//     <style>.
+
+// SOLUTION
+<style>
+    .line {
+        text-decoration: underline;
+    }
+</style>
+
+<p class="line">Underlined text</p>

@@ -1,0 +1,12 @@
+// TASK
+//     Добавьте в редактор заголовок первого уровня и установите размер шрифта в 20 пикселей. Стили запишите в теге
+//     <style>.
+
+// SOLUTION
+<style>
+    h1 {
+        font-size: 20px;
+    }
+</style>
+
+<h1>Title with font size of 20 pixels</h1>

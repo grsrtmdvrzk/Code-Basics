@@ -1,0 +1,12 @@
+// TASK
+//     Добавьте в редактор <div> с классом margin и установите внешние отступы в 20 пикселей со всех сторон. Стили
+//     запишите в теге <style>. Используйте сокращённую запись.
+
+// SOLUTION
+<style>
+    .margin {
+        margin: 20px;
+    }
+</style>
+
+<div class="margin">Block with external margins</div>

@@ -1,0 +1,11 @@
+// TASK
+//     Добавьте в редактор параграф и, используя тег style, установите размер шрифта в 10 пикселей.
+
+// SOLUTION
+<style>
+    p {
+        font-size: 10px;
+    }
+</style>
+
+<p>Text with font size of 10 pixels</p>

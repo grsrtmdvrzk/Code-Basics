@@ -1,0 +1,12 @@
+// TASK
+//     Добавьте в редактор параграф с классом verdana-text и установите для него шрифт Verdana. Стили запишите в теге
+//     <style>. Не забудьте указать универсальное семейство шрифтов — шрифты без засечек.
+
+// SOLUTION
+<style>
+    .verdana-text {
+        font-family: Verdana, sans-serif;
+    }
+</style>
+
+<p class="verdana-text">Text with Verdana font</p>

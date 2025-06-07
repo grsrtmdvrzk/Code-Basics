@@ -1,0 +1,58 @@
+// TASK
+//     В этом уроке мы снова вернёмся к стилизации блока «Вопрос-ответ». В этот раз у него жестко ограничена ширина для
+//     элементов, поэтому их стоит переносить, если недостаточно места.
+//
+//     <style>
+//         .qa {
+//             font: 18px/1.5 sans-serif;
+//             display: flex;
+//         }
+//
+//         .question {
+//             width: 400px;
+//             padding: 20px;
+//
+//             color: #fff;
+//             background: #8ea7e9;
+//         }
+//
+//         .answer {
+//             width: 400px;
+//             padding: 20px;
+//         }
+//     </style>
+//
+//     <div class="qa">
+//         <div class="question">Какие языки программирования наиболее востребованы в 2023?</div>
+//         <div class="answer">Самыми популярными языками для изучения в 2023 году остаются Python и JavaScript</div>
+//     </div>
+//
+//     Доработайте функционал вёрстки. Проверить её можно уменьшив окно вашего браузера.
+
+// SOLUTION
+<style>
+    .qa {
+        display: flex;
+        flex-wrap: wrap;
+
+        font: 18px/1.5 sans-serif;
+    }
+
+    .question {
+        width: 400px;
+        padding: 20px;
+
+        color: #fff;
+        background: #8ea7e9;
+    }
+
+    .answer {
+        width: 400px;
+        padding: 20px;
+    }
+</style>
+
+<div class="qa">
+    <div class="question">Which programming languages are most in demand in 2023?</div>
+    <div class="answer">The most popular languages to learn in 2023 are Python and JavaScript</div>
+</div>

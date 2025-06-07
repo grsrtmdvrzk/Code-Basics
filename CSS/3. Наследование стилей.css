@@ -1,0 +1,10 @@
+// TASK
+//     Добавьте в редактор тег <div></div> и, используя атрибуты, установите размер шрифта в 20 пикселей. Внутри тега
+//     <div> вложите параграф с размером шрифта 10 пикселей.
+
+// SOLUTION
+<div style="font-size: 20px;">
+    This text will have a font size of 20 pixels
+
+    <p style="font-size: 10px;">The nested paragraph has a font size of 10 pixels</p>
+</div>

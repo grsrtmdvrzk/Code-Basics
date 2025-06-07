@@ -1,0 +1,11 @@
+// TASK
+//     Добавьте в редактор параграф с классом important и выровняйте его по центру. Стили укажите в теге <style>.
+
+// SOLUTION
+<style>
+    .important {
+        text-align: center;
+    }
+</style>
+
+<p class="important">Centered Text</p>

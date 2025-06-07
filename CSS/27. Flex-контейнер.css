@@ -1,0 +1,36 @@
+// TASK
+//     Создайте флекс контейнер с классом qa, внутри которого будет два элемента:
+//         1. Блок с текстом: Какие языки программирования наиболее востребованы в 2023?. Блок имеет ширину 40%. Класс
+//            для блока: question
+//         2. Блок с текстом: Самыми популярными языками для изучения в 2023 году остаются Python и JavaScript. Ширина
+//            блока 60%. Класс для блока: answer
+//
+//     Попробуйте самостоятельно стилизовать элементы, чтобы сделать из этого блока настоящий блок с вопросами и
+//     ответами. Тесты будут проверять только правильное использование контейнера.
+
+// SOLUTION
+<style>
+    .qa {
+        display: flex;
+
+        font: 18px/1.5 sans-serif;
+    }
+
+    .question {
+        width: 40%;
+        padding: 20px;
+
+        color: #fff;
+         background: #8ea7e9;
+    }
+
+    .answer {
+        width: 60%;
+        padding: 20px;
+    }
+</style>
+
+<div class="qa">
+<div class="question">Which programming languages are most in demand in 2023?</div>
+<div class="answer">Python and JavaScript remain the most popular languages to learn in 2023</div>
+</div>

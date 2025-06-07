@@ -1,0 +1,12 @@
+// TASK
+//     В редакторе добавьте элемент <span> с классом violet и установите для него цвет равный #9400d3. Для подключения
+//     стилей воспользуйтесь тегом <style>.
+
+// SOLUTION
+<style>
+    .violet {
+        color: #9400d3;
+    }
+</style>
+
+<span class="violet">Text in violet color</span>

@@ -1,0 +1,11 @@
+// TASK
+//     Добавьте в редактор параграф с классом weight и установите насыщенность bold . Стили добавьте в тег <style>.
+
+// SOLUTION
+<style>
+    .weight {
+        font-weight: bold;
+    }
+</style>
+
+<p class="weight">Big text</p>

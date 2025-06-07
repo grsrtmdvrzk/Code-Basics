@@ -1,0 +1,12 @@
+// TASK
+//     Добавьте в редактор <div> с классом border-bold и установите сплошную границу толщиной 5 пикселей. Цвет рамки
+//     #2196F3. Стили запишите в теге <style>.
+
+// SOLUTION
+<style>
+    .border-bold {
+        border: 5px solid #2196f3;
+    }
+</style>
+
+<div class="border-bold">Border block</div>
