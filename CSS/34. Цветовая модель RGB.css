@@ -1,0 +1,12 @@
+// TASK
+//     Создайте параграф с классом background-black-50 и установите ему полупрозрачный чёрный фон. Используйте функцию
+//     rgba(). Стили запишите в теге <style>.
+
+// SOLUTION
+<style>
+    .background-black-50 {
+        background-color: rgba(0, 0, 0, 0.5);
+    }
+</style>
+
+<p class="background-black-50">Paragraph with semi-transparent black background</p>

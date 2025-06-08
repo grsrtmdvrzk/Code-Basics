@@ -1,0 +1,15 @@
+// TASK
+//     Добавьте белый цвет текста у параграфов с классом white-text-mobile для устройств с шириной экрана не больше 750
+//     пикселей. Стили запишите в теге <style>.
+
+// SOLUTION
+<style>
+    @media (max-width: 750px) {
+        .white-text-mobile {
+            color: #fff;
+        }
+    }
+</style>
+
+<p class="white-text-mobile">If you access this exercise from a mobile phone, the text will be white in landscape
+                             orientation</p>

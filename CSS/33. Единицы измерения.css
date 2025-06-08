@@ -1,0 +1,19 @@
+// TASK
+//     Добавьте <div> с классом header. Установите размер шрифта в 22px. Внутрь <div> вложите параграф с классом offer и
+//     установите размер шрифта в 200%. Стили запишите в теге <style>.
+
+// SOLUTION
+<style>
+    .header {
+        font-size: 22px;
+    }
+
+    .offer {
+        font-size: 200%;
+    }
+</style>
+
+<div class="header">
+    Great Offer
+    <p class="offer">Text of the great offer</p>
+</div>
